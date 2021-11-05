@@ -1,0 +1,45 @@
+:root{
+    --primary-red: yellow;
+    --primary-green: green;
+}
+
+body{
+    background-color: var(--primary-green);
+    color: var(--primary-red);
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    margin:auto;
+}
+
+input,label,button,textarea{
+    display:block;
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+#luckyNumber{
+    display:block;
+    margin-top: 1rem;
+    margin: auto;
+
+}
+#output,#btn{
+    display:block;
+    margin-top: 1rem;
+    margin: auto;
+    background: transparent;
+    color: var(--primary-red);
+    border-color: var(--primary-red);
+    border-width: medium;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
